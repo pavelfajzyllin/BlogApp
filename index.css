@@ -1,0 +1,131 @@
+body{
+    --font-family: "Inter", sans-serif;
+  }
+
+h1{
+    margin-top: 100px;
+    text-align: center;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 40px;
+    color: #000;
+    margin-bottom: 70px;
+}
+h2{
+    font-family: var(--font-family);
+    font-weight: 700;
+    color: #000;
+    font-size: 30px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.post-title-input{
+    display: block;
+    padding-left: 20px;
+    padding-top: 11px;
+    box-sizing: border-box;
+    border: 1px solid #000;
+    width: 500px;
+    height: 60px;
+    margin-bottom: 30px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 32px;
+    color: black;
+}
+
+.post-text-input{
+    display: block;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-top: 11px;
+    border: 1px solid #000;
+    width: 500px;
+    height: 250px;
+    resize: vertical;
+
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 32px;
+    color: black;
+    margin-bottom: 30px;
+
+}
+
+.new-post-btn{
+    width: 500px;
+    height: 60px;
+    background-color: #0094ff;
+
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 32px;
+    color: #fff;
+    border: none;
+    margin-bottom: 30px;
+    cursor: pointer;
+
+}
+.row{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.col{
+    width: 510px;
+}
+.empty{
+    text-align: center;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 32px;
+    color: #979797;
+}
+.posts{
+    max-height: 712px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.posts::-webkit-scrollbar { width: 0; }
+.post{
+    width: 500px;
+    margin-bottom: 15px;
+}
+
+.post__title{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 32px;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.post__text{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 25px;
+    color: #000;
+}
+
+.post__date{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 25px;
+    color: #0094ff;
+}
+
+.validation_title, .validation_text {
+    display: none;
+    visibility: hidden;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 25px;
+    color: #f00;
+}
+
+.validation{
+    display: block;
+    visibility: visible;
+}
