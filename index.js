@@ -107,7 +107,7 @@ function cleanInputs (){
 
 function getDate () {
     let Fulldate = new Date ();
-    let datePost = `${Fulldate.getDay()}.${Fulldate.getMonth()}.${Fulldate.getFullYear()} ${Fulldate.getHours()}:${Fulldate.getMinutes()}`
+    let datePost = `${Fulldate.getDate()}.${Fulldate.getMonth()}.${Fulldate.getFullYear()} ${Fulldate.getHours()}:${Fulldate.getMinutes()}`
     return datePost;
 }
 
